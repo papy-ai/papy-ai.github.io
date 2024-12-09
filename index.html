@@ -1,16 +1,114 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Papy AI</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <title>Papy Ai - Créativité et IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="trace.svg">
+    <link rel="alternate icon" type="image/png" href="logo.png">
+    
 </head>
 <body>
-    <h1>Bienvenue sur Papy AI</h1>
-    <p>Ceci est une page d'accueil simple.</p>
-    <button id="action-btn">Cliquez-moi</button>
+<header>
+    <div class="logo">
+        <a href="index.html">Papy Ai</a>
+        <img src="trace.svg" alt="Papy Ai Logo" class="logo-icon">
+    </div>
+    <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#store">Boutique</a></li>
+            <li><a href="#socials">Réseaux</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <script src="scripts.js"></script>
+<section id="hero" class="hero">
+    <div class="hero-content">
+        <img src="trace.svg" alt="Papy Ai Hero Logo" class="hero-logo">
+        <hr class="line"> <!-- Ligne au-dessus du texte -->
+        <h1>Bienvenue chez Papy Ai</h1>
+        <hr class="line"> <!-- Ligne en dessous du texte -->
+        <p>IA et Créativité en toute simplicité.</p>
+        <a href="#portfolio" class="cta-button">Portfolio</a>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <h2>Le Portfolio de Papy Ai</h2>
+    <div class="portfolio-grid">
+        <div class="card">
+            <img src="tutos.png" alt="Project 1">
+            <h3>Tutoriels IA</h3>
+            <p>Des tutos simples pour te permettre d'apprendre les bases de l'IA.</p>
+            <a href="#" target="_blank" class="cta-button">Accéder aux tutos</a>
+        </div>
+        <div class="card">
+            <img src="prompts.png" alt="Project 2">
+            <h3>Prompts Midjourney</h3>
+            <p>Mes meilleures prompts personnalisables pour Midjourney.</p>
+            <a href="#" target="_blank" class="cta-button">Accéder aux prompts</a>
+
+        </div>
+        <div class="card">
+            <img src="widgets.png" alt="Project 3">
+            <h3>Widgets Notion</h3>
+            <p>Des widgets gratuits à installer dans ton espace Notion.</p>
+            <a href="https://papy-ai.github.io/Notion-Widgets/" target="_blank" class="cta-button">Accéder aux widgets</a>
+
+            
+        </div>
+    </div>
+</section>
+
+<section id="store" class="store">
+    <h2>La Boutique</h2>
+    <p>Tous les modèles Notion de Papy Ai au même endroit.</p>
+    <a href="https://papyai.gumroad.com/" target="_blank" class="cta-button">Accéder à la boutique</a>
+</section>
+
+<section id="socials" class="socials">
+    <h2>Me suivre</h2>
+    <p>Papy Ai sur les réseaux</p>
+    <ul>
+        <li><a href="https://www.threads.net/@papy.ai" target="_blank">Threads</a></li>
+        <li><a href="https://www.instagram.com/papy.ai/" target="_blank">Instagram</a></li>
+        <li><a href="https://x.com/Papy_ai" target="_blank">X</a></li>
+    </ul>
+</section>
+
+<section id="about" class="about">
+    <h2>A propos</h2>
+    <p>
+        Je m’appelle Pierre, alias Papy Ai, un jeune Papy de 44 ans passionné par la créativité et l’intelligence artificielle. 
+        Mon objectif ? Te montrer comment libérer ton potentiel créatif grâce à l’IA, que ce soit pour créer des œuvres artistiques 
+        époustouflantes ou booster ta productivité. 
+        Ici, pas de jargon compliqué, juste des astuces simples et fun pour transformer ton imagination en réalité. 
+        Prêt(e) à explorer tout ce que l’IA peut t’apporter ? Suis-moi et ensemble, on va révolutionner ta créativité !    
+    </p>
+  
+</section>
+
+
+<section id="contact" class="contact">
+    <h2>Me contacter</h2>
+    <p>Tu peux me contacter <a href="mailto:papyai@example.com">en cliquant ici</a> ou directement depuis <a href="#socials">les réseaux</a>.</p>
+</section>
+
+<footer>
+    &copy; 2024 Papy Ai. All rights reserved.
+</footer>
+
+<script src="app.js"></script>
 </body>
 </html>
