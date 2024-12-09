@@ -29,3 +29,7 @@ document.querySelectorAll('.nav-menu a').forEach(anchor => {
         }
     });
 });
+
+function navigateTo(page) {
+    window.location.href = page;
+  }
